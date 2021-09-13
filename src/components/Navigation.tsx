@@ -8,13 +8,13 @@ export const Navigation = () => {
                 <div>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to={"/"} className={"nav-link"}>Главная</Link>
+                            <Link to={"/"}>Главная</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to={"/cat"} className={"nav-link"}>Каталог</Link>
+                            <Link to={"/cat"}>Каталог</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to={"/team"} className={"nav-link"}>Команда</Link>
+                            <Link to={"/team"}>Команда</Link>
                         </li>
                     </ul>
                 </div>
